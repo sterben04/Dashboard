@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,
+body{
+    font-family: 'lato';
+    font-weight: 300;
+}
+
+/*----------Navigation---------*/
+
+.main-nav{
+    background-color: #000;
+    color: #fff;
+    width: 100%;   
+    position: relative;
+}
+.main-nav h2{
+     margin: 18px;
+     float: right;
+     margin-right: 180px;
+     
+}
+/*----------Section---------*/
+.station{
+    margin-left: 50px;
+    display: block;
+    width: 60%;
+    position: relative;
+    
+}
+
+.station h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 150%;
+    
+   
+}
+.span-1-of-3{
+    height: auto;
+    position: relative;
+}
+.span-1-of-3 label{
+    font-size: 130%;
+    
+}
+.span-1-of-3 img{
+    width: 550px;
+    height: auto;
+    float: right;
+    margin-top: -160px;
+    margin-right: -370px;
+}
+input[type="text"],
+input[type="text"],
+input[list="pickup"]{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn
+{  
+    
+    margin-left: 260px;
+    background-color: #de7c09;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #000;
+    
+}

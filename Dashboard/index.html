@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        
+        <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+        <title>OTORail Dashboard</title>
+    </head>
+    <body>
+        <header>
+            <nav class="main-nav">
+                <div class="row">
+                    <h2>Logged in as,  </h2>
+                </div>
+            </nav>
+        </header>
+        <section class="station">
+            <div class="row">
+            <h3>Search</h3>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="pickup">From</label>
+                </div>
+                 <div class="col span-1-of-3">
+                    <input list="pickup" name="pickup">
+                       <form action="" method="get">
+                        <datalist id="pickup">
+                            <option value="Trivandrum Central Station (TVC)"></option>
+                            <option value="Ernakulam Town Station (ERN)"></option>
+                            <option value="Angamaly for Kallady (AFK)"></option>
+                            <option value="Chalakudi Station (CKI)"></option>
+                            <option value="Aluva Station (AWY)"></option>
+                            <option value="Guruvayur Station (GUV)"></option>
+                        </datalist>
+                      </form>
+                </div>
+                
+            </div>
+            <div class="row">
+                 <div class="col span-1-of-3">
+                    <label for="destination">To</label>
+                </div>
+                 <div class="col span-1-of-3">
+                    <input type="text" name="destination" placeholder="Landmark" >
+                 </div>
+            </div>
+             <div class="row">
+                 <div class="col span-1-of-3">
+                    <label for="ticket">Train no</label>
+                </div>
+                 <div class="col span-1-of-3">
+                    <input type="text" name="ticket" placeholder="Train number">
+                </div>
+                 <div class="col span-1-of-3">
+                    <img src="vendors/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg">
+                 </div>
+            </div>
+            <div class="row">
+                <a class="btn btn-full">Book Now</a>
+            </div>
+        </section>
+    
+    </body>
+</html>
